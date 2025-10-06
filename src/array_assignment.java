@@ -3,34 +3,34 @@ import java.util.ArrayList;
 import java.util.List;
 public class array_assignment {
 
-//    public static int height(int[] gain){
-//        int max=0;
-//        int current=0;
-//        for(int i= 0;i<gain.length;i++){
-//            current+=gain[i];
-//            max=Math.max(current,max);
-//        }
-//        return max;
-//
-//    }
+    public static int height(int[] gain){
+        int max=0;
+        int current=0;
+        for(int i= 0;i<gain.length;i++){
+            current+=gain[i];
+            max=Math.max(current,max);
+        }
+        return max;
+
+    }
 
 //    array concatenation
     public static void main(String[] args) {
-//        int [] a={10,20,30};
-//        int [] b={40,50,60,70,80};
-//        int a_leng=a.length;
-//        int b_leng=b.length;
-//        int c_leng=a_leng+b_leng;
-//        int []c=new int[c_leng];
-//        for(int i=0;i<a_leng;i++){
-//            c[i]=a[i];
-//        }
-//        for(int i=0;i<b_leng;i++){
-//            c[a_leng+i]=b[i];
-//        }
-//        for(int i=0;i<c_leng;i++){
-//            System.out.print(c[i]+ " ");
-//        }
+        int [] a={10,20,30};
+        int [] b={40,50,60,70,80};
+        int a_leng=a.length;
+        int b_leng=b.length;
+        int c_leng=a_leng+b_leng;
+        int []c=new int[c_leng];
+        for(int i=0;i<a_leng;i++){
+            c[i]=a[i];
+        }
+        for(int i=0;i<b_leng;i++){
+            c[a_leng+i]=b[i];
+        }
+        for(int i=0;i<c_leng;i++){
+            System.out.print(c[i]+ " ");
+        }
 
 //        int[]a={10,20,30};
 //        System.out.println(a.length);
@@ -151,24 +151,24 @@ public class array_assignment {
 //        int result=height(gain);
 //        System.out.println(result);
 
-//        int [] []images={{1,1,0},{1,0,1},{0,0,0}};
-//        int m=images.length;
-//        int n=images[0].length;
-//        for(int i=0;i<m;i++){
-//            for(int j=0;j<(n+1)/2;j++){
-//                int temp=images[i][j];
-//                images[i][j]=images[i][n-1-i];
-//                images[i][n-1-i]=temp;
-//
-//
-//            }
-//        }
-//        for(int i=0;i< images.length;i++){
-//            for(int j=0;j<n;j++){
-//                System.out.print(images[i][j]+ " ");
-//            }
-//            System.out.println();
-//        }
+        int [] []images={{1,1,0},{1,0,1},{0,0,0}};
+        int m=images.length;
+        int n=images[0].length;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<(n+1)/2;j++){
+                int temp=images[i][j];
+                images[i][j]=images[i][n-1-i];
+                images[i][n-1-i]=temp;
+
+
+            }
+        }
+        for(int i=0;i< images.length;i++){
+            for(int j=0;j<n;j++){
+                System.out.print(images[i][j]+ " ");
+            }
+            System.out.println();
+        }
 
 
 
